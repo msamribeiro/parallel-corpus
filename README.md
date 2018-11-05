@@ -1,5 +1,3 @@
-# 
-
 The Parallel Audiobook Corpus (version 1.0) is a collection of parallel readings of audiobooks. The corpus consists of approximately **121 hours of data** across 4 books and 59 speakers.
 
 The key difference with respect to similar databases is the parallel nature of the data. The same textual source is read separately by multiple speakers.
@@ -49,13 +47,15 @@ Each book is read by multiple speakers. The data is provided in two formats:
 
 This format of the data contains the audiobook recording at the chapter-level. Each chapter-level waveform is accompanied by the text and its respective word-level alignment. Alignment was performed using the method described in [1].
 
-Data per book
+Data per book:
 
-`./{book}/wav/{speaker}/.wav`Waveforms for book chapters
+| Data type                     | Description                                              |
+| ----------------------------- | -------------------------------------------------------- |
+| `./{book}/wav/{speaker}/.wav` | Waveforms for book chapters                              |
+| `./{book}/txt/.txt`           | Text files with the corresponding text for book chapters |
+| `./{book}/ctm/{speaker}*.ctm` | ctm text file with word-level alignment.                 |
 
-`./{book}/txt/.txt` Text files with the corresponding text for book chapters
 
-`./{book}/ctm/{speaker}*.ctm` ctm text file with word-level alignment.
 
 #### Segmented Data
 
@@ -65,21 +65,15 @@ Some books are read jointly by multiple speakers (denoted *various* in the chapt
 
 Data per book:
 
-`./{book}/wav/{speaker}/*.wav`Waveforms following chpXX_uttXXX naming convention.
-
-Additional files for each book:
-
-`txt.punc `original text without any processing other than sentence tokenization.
-
-`txt.clean`cleaned text stripped of punctuation and (very minor) text normalization
-
-`spk2gender`table mapping speakers to gender
-
-`spk2utt` table mapping speakers to a list of available utterances
-
-`utt2spk`table mapping utterances to a list of speakers
-
-`spk2dur`table mapping a speaker to amount of data in hours
+| Data type                      | Description                                                  |
+| ------------------------------ | ------------------------------------------------------------ |
+| `./{book}/wav/{speaker}/*.wav` | Waveforms following chpXX_uttXXX naming convention.          |
+| `txt.punc`                     | original text without any processing other than sentence tokenization. |
+| `txt.clean`                    | cleaned text stripped of punctuation and (very minor) text normalization |
+| `spk2gender`                   | table mapping speakers to gender                             |
+| `spk2utt`                      | table mapping speakers to a list of available utterances     |
+| `utt2spk`                      | mapping utterances to a list of speakers                     |
+| `spk2dur`                      | table mapping a speaker to amount of data in hours           |
 
 Each waveform is a single-channel 16-bit PCM WAV sampled at 22050 Hz.
 Note that these waveforms were original provided by LibriVox as MP3 files.
