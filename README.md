@@ -4,6 +4,10 @@ The key difference with respect to similar databases is the parallel nature of t
 
 Audio data is extracted from [LibriVox](https://librivox.org) and textual data is taken from [Project Gutenberg](https://www.gutenberg.org).
 
+------
+
+
+
 ## Table of Contents
 
 1. [Applications](doc/applications.md)
@@ -22,11 +26,11 @@ Audio data is extracted from [LibriVox](https://librivox.org) and textual data i
 
 ## License
 
-This data is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0):  https://creativecommons.org/licenses/by-nc/4.0
+This data is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License ([CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0)).
 
 This licence applies to the alignment and segmentation of the speech and text data.
 
-The underlying audio and text are licensed under their specific datasource terms. Please refer to their [respective sources](doc/data-sources.md) for a full description of them.
+The underlying audio and text are licensed under their specific data source terms. Please refer to their [respective sources](doc/data-sources.md) for a full description of those terms.
 
 
 
