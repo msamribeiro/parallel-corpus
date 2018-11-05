@@ -26,9 +26,7 @@ Audio data is extracted from [LibriVox](https://librivox.org) and textual data i
 
 ## License
 
-This data is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License ([CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0)).
-
-This licence applies to the alignment and segmentation of the speech and text data.
+This data is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License ([CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0)). This licence applies to the alignment and segmentation of the speech and text data.
 
 The underlying audio and text are licensed under their specific data source terms. Please refer to their [respective sources](doc/data-sources.md) for a full description of those terms.
 
