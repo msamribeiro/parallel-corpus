@@ -12,11 +12,12 @@ Textual data is taken from Project Gutenberg: https://www.gutenberg.org
 2. [Contents](#contents)
 3. [Data Overview](#data-overview)
 4. [File Formats](#file-formats)
-5. Data Sources
+5. [Data Sources](#data-sources)
 6. License
 7. Citation
-8. References
-9. Acknowledgements
+8. [Download](#download)
+9. References
+10. Acknowledgements
 
 ------
 
@@ -26,9 +27,9 @@ The Parallel Audiobook Corpus was prepared mainly with two scenarios in mind: Sp
 
 In the context of Speech Synthesis, this type of data could be useful, for example, for prosody analysis and/or evaluation. Some speakers read the stories or simulate character voices in different ways. Multiple readings of the same textual source can be useful to compare overall prosodic variation across speakers.
 
-In the context of Voice Conversion, parallel data is essential for robust acoustic models. The segmented version of this data is conveniently prepared for this scenario. Matching utterance IDs across multiple speakers will result in a large parallel corpus for average voice models. See utt2spk for readings across speakers.
+In the context of Voice Conversion, parallel data is essential for robust acoustic models. The segmented version of this data is conveniently prepared for this scenario. Matching utterance IDs across multiple speakers will result in a large parallel corpus for average voice models. See `utt2spk` for readings across speakers.
 
-These are, of course, many other possibilities. Feel free to use the data according to your scenario of interest. I would be happy to hear about the various scenarios you might use this data for.
+These are, of course, many other possibilities. Feel free to use the data according to your interests. I would be happy to hear about the various scenarios you might use this data for.
 
 ## Contents
 
@@ -59,7 +60,7 @@ Data per book:
 
 #### Segmented Data
 
-The chapter-level alignment was used to segment the data into utterances. This provides a more convenient way to use the data for Text-to-Speech synthesis or Voice Conversion. Waveforms are organized per speaker and, utterance ids are consistent within each book. If utterances are missing for a given speaker, it is implied that the alignment failed, so the utterance was excluded.
+The chapter-level alignment was used to segment the data into utterances. This provides a more convenient way to use the data for Text-to-Speech synthesis or Voice Conversion. Waveforms are organized per speaker and utterance ids are consistent within each book. If utterances are missing for a given speaker, it is implied that the alignment failed, so the utterance was excluded.
 
 Some books are read jointly by multiple speakers (denoted *various* in the chapter-level data). For this reasons, some speakers may have a very small amount of data. Note that speaker names are consistent across the entire dataset, so a single speaker may read data from multiple books.
 
@@ -159,3 +160,53 @@ The *first field* gives the utterance ID. In this field, ses gives the audio fil
 
 See [here](http://www1.icsi.berkeley.edu/Speech/docs/sctk-1.2/infmts.htm) for further details on parsing the ctm format.
 
+## Data Sources
+
+The three letter identifiers used in the data denote the speaker. Identifiers are determined by the speaker's username on Librivox. The identifier `various`indicates a reading performed by multiple speakers.
+
+Please note: the links given in this section point to the original unprocessed data sources on Librivox and Gutenberg. To get the processed and aligned parallel audiobook corpus, see [download](#download).
+
+
+
+| Emma      |                                                             |
+| --------- | ----------------------------------------------------------- |
+| `sbe`     | [audio](https://librivox.org/emma-by-jane-austen)           |
+| `scr`     | [audio](https://librivox.org/emma-by-jane-austen-solo)      |
+| `ekl`     | [audio](https://librivox.org/emma-version-3-by-jane-austen) |
+| `mfo`     | [audio](https://librivox.org/emma-by-jane-austen-2)         |
+| `mth`     | [audio](https://librivox.org/emma-version-6-by-jane-austen) |
+| `various` | [audio](https://librivox.org/emma-version-4-by-jane-austen) |
+| -         | [text](https://www.gutenberg.org/files/158/158-0.txt)       |
+
+
+
+| Huck      |                                                              |
+| --------- | ------------------------------------------------------------ |
+| `acr`     | [audio](https://librivox.org/the-adventures-of-huckleberry-finn-by-mark-twain) |
+| `msm`     | [audio](https://librivox.org/the-adventures-of-huckleberry-finn-by-mark-twain-version-2) |
+| `jgr`     | [audio](https://librivox.org/adventures-of-huckleberry-finn-by-mark-twain) |
+| `pch`     | [audio](https://librivox.org/the-adventures-of-huckleberry-finn-version-6-by-mark-twain) |
+| `various` | [audio](https://librivox.org/the-adventures-of-huckleberry-finn-version-3) |
+| -         | [text](https://www.gutenberg.org/files/76/76-0.txt)          |
+
+
+
+| Sherlock  |                                                              |
+| --------- | ------------------------------------------------------------ |
+| `rgo`     | [audio](https://librivox.org/the-adventures-of-sherlock-holmes-by-sir-arthur-conan-doyle) |
+| `msm`     | [audio](https://librivox.org/the-adventures-of-sherlock-holmes-by-sir-arthur-conan-doyle-2) |
+| `dcl`     | [audio](https://librivox.org/the-adventures-of-sherlock-holmes-version-4-by-sir-arthur-conan-doyle) |
+| `various` | [audio](https://librivox.org/the-adventures-of-sherlock-holmes) |
+| -         | [text](http://www.gutenberg.org/cache/epub/1661/pg1661.txt)  |
+
+
+
+| Treasure  |                                                              |
+| --------- | ------------------------------------------------------------ |
+| `apr`     | [audio](ttps://librivox.org/treasure-island-by-robert-louis-stevenson-2) |
+| `msm`     | [audio](https://librivox.org/treasure-island-version-4-by-robert-louis-stevenson) |
+| `ksh`     | [audio](https://librivox.org/treasure-island-by-robert-louis-stevenson-5) |
+| `various` | [audio](https://librivox.org/treasure-island-by-robert-louis-stevenson) |
+| -         | [text](https://www.gutenberg.org/files/120/120-0.txt)        |
+
+## Download
