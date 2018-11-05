@@ -11,7 +11,7 @@ Textual data is taken from Project Gutenberg: https://www.gutenberg.org
 1. [Applications](#applications)
 2. [Contents](#contents)
 3. [Data Overview](#data-overview)
-4. File Formats
+4. [File Formats](#file-formats)
 5. Data Sources
 6. License
 7. Citation
@@ -118,7 +118,6 @@ Hours of speech was estimated with Voice Activity Detection (VAD) on the Segment
 | Reading `pch`- 1 speaker        | 6.10 hours  |
 | Reading `various` - 17 speakers | 5.14 hours  |
 | Total speech hours              | 29.13 hours |
-|                                 |             |
 
 #### Sherlock
 
@@ -147,4 +146,16 @@ Hours of speech was estimated with Voice Activity Detection (VAD) on the Segment
 | Reading `msm`- 1 speaker        | 4.70 hours  |
 | Reading `various`- 13 speakers  | 4.05 hours  |
 | Total speech hours              | 17.08 hours |
+
+
+
+## File Formats
+
+This dataset consists only of text and waveform files. All files not ending with *.wav can be interpreted as text files.
+
+The ctm alignment provided with the chapter-level data can be parsed as follows:
+
+The *first field* gives the utterance ID. In this field, ses gives the audio file (which is a chapter), and the seg fields give the start and end of the utterance within the complete audio file, in 100ms units. The *second field* is the waveform channel (which is constant in this case). The *third and fourth fields* are the word start time and duration, respectively. Word start time and duration are given with respect to the beginning of the utterance, in seconds.
+
+See [here](http://www1.icsi.berkeley.edu/Speech/docs/sctk-1.2/infmts.htm) for further details on parsing the ctm format.
 
