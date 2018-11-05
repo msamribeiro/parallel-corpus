@@ -17,7 +17,7 @@ Each book is read by multiple speakers. Waveforms are single-channel 16-bit PCM 
 
 #### Chapter Data
 
-This format of the data contains the audiobook recording at the chapter-level. Each chapter-level waveform is accompanied by the text and its respective word-level alignment. Alignment was performed using the methods described in [[1]](https://github.com/msamribeiro/parallel-corpus#references).
+This format of the data contains the audiobook recording at the chapter-level. Each chapter-level waveform is accompanied by the text and its respective word-level alignment. Alignment was performed using the methods described in [[1]](https://msamribeiro.github.io/parallel-corpus/#references).
 
 Data per book:
 

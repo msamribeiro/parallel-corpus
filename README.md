@@ -11,11 +11,12 @@ Audio data is extracted from [LibriVox](https://librivox.org) and textual data i
 3. [Data Overview](doc/data-overview.md)
 4. [File Formats](doc/file-formats.md)
 5. [Data Sources](doc/data-sources.md)
-6. [License](#license)
-7. [Citation](#citation)
-8. [Download](doc/download.md)
-9. [Acknowledgements](#acknowledgements)
-10. [References](#references)
+6. [Related Corpora](doc/related-corpora.md)
+7. [License](#license)
+8. [Citation](#citation)
+9. [Download](#download)
+10. [Acknowledgements](#acknowledgements)
+11. [References](#references)
 
 ------
 
@@ -25,7 +26,7 @@ This data is licensed under a Creative Commons Attribution-NonCommercial 4.0 Int
 
 This licence applies to the alignment and segmentation of the speech and text data.
 
-The underlying audio and text are licensed under their specific datasource terms. Please refer to their [respective sources](docs/data-sources.md) for a full description of them.
+The underlying audio and text are licensed under their specific datasource terms. Please refer to their [respective sources](doc/data-sources.md) for a full description of them.
 
 
 
