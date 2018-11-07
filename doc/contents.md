@@ -1,5 +1,3 @@
-## Contents
-
 There are four audiobooks books in this dataset.
 
 | Identifier | Book                                                     |
