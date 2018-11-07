@@ -1,5 +1,3 @@
-## Data Sources
-
 The three letter identifiers used in the data denote the speaker. Identifiers are determined by the speaker's username on Librivox. The identifier `various`indicates a reading performed by multiple speakers.
 
 Please note: the links given in this section point to the original unprocessed data sources on Librivox and Project Gutenberg. To get the processed and aligned parallel audiobook corpus, see [download](https://msamribeiro.github.io/parallel-corpus/#download).

@@ -1,5 +1,3 @@
-## Data Overview
-
 Brief overview of available data per book in terms of number of speakers and hours of speech. Note that the identifier `various` denotes a book reading performed by multiple speakers, rather than a single speaker reading the book from beginning to end. Although a reading with multiple speakers is complete with respect to the book, it is not parallel within itself.
 
 Hours of speech was estimated with Voice Activity Detection (VAD) on the Segmented Data using the tools available in [[2, 3]](https://msamribeiro.github.io/parallel-corpus/#references).

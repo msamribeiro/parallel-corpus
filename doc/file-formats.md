@@ -1,5 +1,3 @@
-## File Formats
-
 This dataset consists only of text and waveform files. All files not ending with *.wav can be interpreted as text files.
 
 The ctm alignment provided with the chapter-level data can be parsed as follows:

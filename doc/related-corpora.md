@@ -1,5 +1,3 @@
-## Related Corpora
-
 There are other corpora that have been prepared using public domain Librivox data.
 
 | Corpus                                                       | Description                                                  |
