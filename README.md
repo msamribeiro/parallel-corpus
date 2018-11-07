@@ -1,6 +1,6 @@
-The Parallel Audiobook Corpus (version 1.0) is a collection of parallel readings of audiobooks. The corpus consists of approximately **121 hours of data** across 4 books and 59 speakers.
+The Parallel Audiobook Corpus (version 1.0) is a collection of parallel readings of audiobooks. The corpus consists of approximately **121 hours of data across 4 books and 59 speakers**.
 
-The key difference with respect to similar databases is the parallel nature of the data. The same textual source is read separately by multiple speakers.
+The data is provided in two formats. *Chapter* data contains the audiobook recording at the chapter level. Each chapter-level waveform is accompanied by the text and its respective word-level alignment. This format can be used if you are looking for a segmentation that does not correspond to utterance-level units. *Segmented* data provides a more traditional format for the corpus. The chapter-level alignment was segmented into utterances with waveforms organized by speaker. Note that, within each book, utterance identifiers are consistent across speakers, making it easy to find parallel data.
 
 Audio data is extracted from [LibriVox](https://librivox.org) and textual data is taken from [Project Gutenberg](https://www.gutenberg.org).
 
@@ -26,7 +26,7 @@ Audio data is extracted from [LibriVox](https://librivox.org) and textual data i
 
 ## License
 
-This data is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License ([CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0)). This licence applies to the alignment and segmentation of the speech and text data.
+This data is licensed under a Creative Commons Attribution 4.0 International License ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0)). This licence applies to the alignment and segmentation of the speech and text data.
 
 The underlying audio and text are licensed under their specific data source terms. Please refer to their [respective sources](doc/data-sources.md) for a full description of those terms.
 
@@ -40,7 +40,7 @@ If you'd like to cite this work, please use the format provided in the download 
 
 ## Download
 
-*The download link will appear soon.*
+*Download will be made available soon.*
 
 
 
