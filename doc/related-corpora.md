@@ -8,3 +8,6 @@ There are other corpora that have been prepared using public domain Librivox dat
 | [CSS10](https://github.com/Kyubyong/css10)                   | A collection of single speaker speech datasets for 10 languages. |
 | [M-AILABS](http://www.m-ailabs.bayern/en/the-mailabs-speech-dataset) | A collection of nearly 1000 hours of 16KHz read speech (male and female speakers) for 10 languages. |
 
+
+
+[QuoteLi3](https://nlp.stanford.edu/~muzny/quoteli.html) is a manually annotated dataset for quote attribution in literary text. In this dataset, direct speech is tagged with respect to the character that is speaking. It was prepared by [Muzny et al (2017)](https://nlp.stanford.edu/pubs/muzny2017twostage.pdf), who proposed an automatic method for quote attribution. One of the annotated books was **Emma, by Jane Austen**. This labelled data could be used together with the parallel recordings of Emma distributed with the *Parallel Audiobook Corpus.* This might be helpful if, for example, you wish to investigate character voices in audiobook recordings.
