@@ -34,13 +34,24 @@ The underlying audio and text are licensed under their specific data source term
 
 ## Citation
 
-If you'd like to cite this work, please use the format provided in the download page.
+If you'd like to cite this work, please use the following format:
+```
+@misc{pacorpus18,
+  author = {Ribeiro,  Manuel Sam},
+  title = {Parallel Audiobook Corpus},
+  publisher = {University of Edinburgh},
+  howpublished = {[dataset]. University of Edinburgh. School of Informatics. \url{https://doi.org/10.7488/ds/2468}},
+  doi = {10.7488/ds/2468},
+  url = {https://datashare.is.ed.ac.uk/handle/10283/3217},
+  year = {2018}
+}
 
+```
 
 
 ## Download
 
-*Download will be made available soon.*
+The data can be downloaded from the following page: http://dx.doi.org/10.7488/ds/2468
 
 
 
