@@ -51,7 +51,7 @@ If you'd like to cite this work, please use the following format:
 
 ## Download
 
-The data can be downloaded from the following page: http://dx.doi.org/10.7488/ds/2468
+The data can be downloaded from the following page: [http://dx.doi.org/10.7488/ds/2468](http://dx.doi.org/10.7488/ds/2468).
 
 
 
